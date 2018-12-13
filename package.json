@@ -1,6 +1,6 @@
 {
   "name": "applink-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "This is a cli for project based on applink.org",
   "main": "index.js",
   "scripts": {
@@ -23,6 +23,6 @@
     "commander": "^2.19.0"
   },
   "bin": {
-    "geAsar": "./bin/applink-cli.js"
+    "applink-cli": "./bin/applink-cli.js"
   }
 }
