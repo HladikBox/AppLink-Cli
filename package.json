@@ -1,0 +1,22 @@
+{
+  "name": "applink-cli",
+  "version": "1.0.1",
+  "description": "This is a cli for project based on applink.org",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HladikBox/AppLink-Cli.git"
+  },
+  "keywords": [
+    "Applink"
+  ],
+  "author": "Steve.cai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HladikBox/AppLink-Cli/issues"
+  },
+  "homepage": "https://github.com/HladikBox/AppLink-Cli#readme"
+}
