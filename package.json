@@ -1,6 +1,6 @@
 {
   "name": "applink-cli",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "This is a cli for project based on applink.org",
   "main": "index.js",
   "scripts": {
