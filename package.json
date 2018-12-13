@@ -1,6 +1,6 @@
 {
   "name": "applink-cli",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "This is a cli for project based on applink.org",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/HladikBox/AppLink-Cli/issues"
   },
-  "homepage": "https://github.com/HladikBox/AppLink-Cli#readme"
+  "homepage": "https://github.com/HladikBox/AppLink-Cli#readme",
+  "dependencies": {
+    "commander": "^2.19.0"
+  },
+  "bin": {
+    "geAsar": "./bin/applink-cli.js"
+  }
 }
