@@ -1,6 +1,6 @@
 {
   "name": "applink-cli",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "This is a cli for project based on applink.org",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/HladikBox/AppLink-Cli#readme",
   "dependencies": {
-    "commander": "^2.19.0"
+    "commander": "^2.19.0",
+    "request": "^2.88.0"
   },
   "bin": {
     "applink-cli": "./bin/applink-cli.js"
