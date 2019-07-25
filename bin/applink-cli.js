@@ -18,7 +18,12 @@ program.command('syncapi <type> <user> <app> <output>')
             if(cli.syncapi(user,app,output)){
                 
             }
-        }else{
+        }else if(typ=="ng"){
+          var cli=require("../lib/ng.js");
+          if(cli.syncapi(user,app,output)){
+              
+          }
+      }else{
             console.log("We don't support the mini now, please try to use [mini/ionic].");
         }
         
